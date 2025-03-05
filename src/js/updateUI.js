@@ -25,6 +25,7 @@ const showCards = ({ products }) => {
     const priceWithDiscount = clone.querySelector(".price-with-discount");
     const buyBtn = document.querySelector(".buy-btn");
 
+    a.href = `product.html?id=${id}`;
     img.src = thumbnail;
     img.alt = title;
 
@@ -41,4 +42,8 @@ const showCards = ({ products }) => {
   });
 };
 
-export { showCards };
+const showProduct = (product) => {
+  console.log(product);
+};
+
+export { showCards, showProduct };
