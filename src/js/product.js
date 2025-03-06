@@ -1,5 +1,6 @@
 import { fetchData } from "./fetchData.js";
 import { showProduct } from "./updateUI.js";
+
 import "./dark-mode.js";
 
 const queryString = window.location.search;
